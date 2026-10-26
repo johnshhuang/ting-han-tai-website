@@ -77,6 +77,10 @@
       "pass": true
     },
     {
+      "name": "dark uses its matching visible portrait",
+      "pass": true
+    },
+    {
       "name": "dark text contrast ≥ 4.5",
       "pass": true,
       "details": {
@@ -173,6 +177,10 @@
         "client": 1440,
         "body": 1440
       }
+    },
+    {
+      "name": "light uses its matching visible portrait",
+      "pass": true
     },
     {
       "name": "light text contrast ≥ 4.5",
@@ -306,24 +314,22 @@
     }
   ],
   "pageErrors": 0,
-  "passed": 45,
-  "html_sha256": "da2dc274bd72ded9b20ed74a4953da1f3db7e540307d8991553af421d65de0ed",
-  "portrait_sha256": "a712fd2d4ea74b53d7438be4693b7759d7f2872305a950c71a45aa0310843c0d",
+  "passed": 47,
+  "html_sha256": "77acc30b9e064482f9d12679b8655f6f6424a6cc47b805d066452fb34c874ff3",
   "portrait_matches_supplied_original": true,
   "art_class": {
     "fail": 0,
     "warn": 0
   },
   "visual_review": {
-    "all_screenshots_reviewed": 24,
+    "fullpage_and_slices_reviewed": 24,
+    "hero_compositions_reviewed": 4,
     "themes": [
       "dark",
       "light"
     ],
-    "desktop_height": 6851,
-    "mobile_height": 10430,
-    "original_assets_reviewed": 6,
-    "mobile_nested_padding_fixed": true
+    "result": "pass",
+    "source": "work/portrait-photo-replacement and /tmp/artclass/portrait-{dark,light}"
   },
   "current_revision_uploaded": true,
   "current_revision_deployed": true,
@@ -670,23 +676,39 @@
     "clinics"
   ],
   "deployment": {
+    "verified_at": "2026-10-26T15:12:22.391553+00:00",
     "url": "https://johnshhuang.github.io/ting-han-tai-website/",
-    "deployed_commit": "0bb8e0ee231ef0b8edabcbcf76917967c234eefc",
-    "run_id": 40341917220,
-    "run_url": "https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40341917220",
-    "verified_at": "2026-10-26T14:43:59.040307+00:00",
+    "deployed_commit": "c224794095d32e5195ade388ae01e186fb08e5ed",
+    "run_id": 40346743342,
     "files": [
       {
         "path": "index.html",
         "url": "https://johnshhuang.github.io/ting-han-tai-website/",
         "status": 200,
-        "sha256": "da2dc274bd72ded9b20ed74a4953da1f3db7e540307d8991553af421d65de0ed",
-        "matches_local": true,
-        "bytes": 46144
+        "bytes": 46558,
+        "sha256": "77acc30b9e064482f9d12679b8655f6f6424a6cc47b805d066452fb34c874ff3",
+        "matches_local": true
+      },
+      {
+        "path": "assets/ting-han-tai-portrait-light.jpg",
+        "url": "https://johnshhuang.github.io/ting-han-tai-website/assets/ting-han-tai-portrait-light.jpg",
+        "status": 200,
+        "bytes": 63844,
+        "sha256": "68c3c519de4f16b976f063d36d6f208ba4670e8fd2f8b69c3e836faaa0b77b8b",
+        "matches_local": true
+      },
+      {
+        "path": "assets/ting-han-tai-portrait-dark.png",
+        "url": "https://johnshhuang.github.io/ting-han-tai-website/assets/ting-han-tai-portrait-dark.png",
+        "status": 200,
+        "bytes": 1661780,
+        "sha256": "6131ed3fff70246688fc26e01004b8ec7d8e37469a2e42876b48cf1be6dfe2ff",
+        "matches_local": true
       }
     ],
     "all_match": true,
-    "scope": "Booking href only; images unchanged from previous deployment."
+    "run_url": "https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40346743342",
+    "conclusion": "success"
   },
   "previous_deployment": {
     "url": "https://johnshhuang.github.io/ting-han-tai-website/",
@@ -785,5 +807,71 @@
     "actual_booking_submitted": false,
     "prior_visual_qa_rerun": false
   },
-  "prior_full_qa_revision": "029b18b6cb4cef586877b56e9800103a99d117b3"
+  "prior_full_qa_revision": "029b18b6cb4cef586877b56e9800103a99d117b3",
+  "portraits": [
+    {
+      "theme": "light",
+      "source_filename": "S__70639723.jpg",
+      "asset": "assets/ting-han-tai-portrait-light.jpg",
+      "sha256": "68c3c519de4f16b976f063d36d6f208ba4670e8fd2f8b69c3e836faaa0b77b8b",
+      "matches_original": true
+    },
+    {
+      "theme": "dark",
+      "source_filename": "專業骨科醫師肖像.png",
+      "asset": "assets/ting-han-tai-portrait-dark.png",
+      "sha256": "6131ed3fff70246688fc26e01004b8ec7d8e37469a2e42876b48cf1be6dfe2ff",
+      "matches_original": true
+    }
+  ],
+  "portrait_revision": {
+    "portraits": [
+      {
+        "theme": "light",
+        "source_filename": "S__70639723.jpg",
+        "asset": "assets/ting-han-tai-portrait-light.jpg",
+        "sha256": "68c3c519de4f16b976f063d36d6f208ba4670e8fd2f8b69c3e836faaa0b77b8b",
+        "matches_original": true
+      },
+      {
+        "theme": "dark",
+        "source_filename": "專業骨科醫師肖像.png",
+        "asset": "assets/ting-han-tai-portrait-dark.png",
+        "sha256": "6131ed3fff70246688fc26e01004b8ec7d8e37469a2e42876b48cf1be6dfe2ff",
+        "matches_original": true
+      }
+    ],
+    "other_content_and_links_unchanged": true,
+    "browser_checks_passed": 47,
+    "art_class": {
+      "fail": 0,
+      "warn": 0
+    },
+    "screenshots_reviewed": {
+      "fullpage_and_slices": 24,
+      "hero_desktop_mobile": 4
+    },
+    "visual_result": "Correct theme portraits; complete head and crossed arms; stable portrait frame; readable dark/light desktop and mobile."
+  },
+  "deployment_history": [
+    {
+      "url": "https://johnshhuang.github.io/ting-han-tai-website/",
+      "deployed_commit": "0bb8e0ee231ef0b8edabcbcf76917967c234eefc",
+      "run_id": 40341917220,
+      "run_url": "https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40341917220",
+      "verified_at": "2026-10-26T14:43:59.040307+00:00",
+      "files": [
+        {
+          "path": "index.html",
+          "url": "https://johnshhuang.github.io/ting-han-tai-website/",
+          "status": 200,
+          "sha256": "da2dc274bd72ded9b20ed74a4953da1f3db7e540307d8991553af421d65de0ed",
+          "matches_local": true,
+          "bytes": 46144
+        }
+      ],
+      "all_match": true,
+      "scope": "Booking href only; images unchanged from previous deployment."
+    }
+  ]
 }
