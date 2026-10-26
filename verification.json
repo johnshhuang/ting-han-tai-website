@@ -1,0 +1,265 @@
+{
+  "checks": [
+    {
+      "name": "Default theme is dark",
+      "pass": true
+    },
+    {
+      "name": "All images decoded",
+      "pass": true
+    },
+    {
+      "name": "One primary heading",
+      "pass": true
+    },
+    {
+      "name": "No missing anchors",
+      "pass": true
+    },
+    {
+      "name": "External tab links use noopener",
+      "pass": true
+    },
+    {
+      "name": "Theme toggles to light",
+      "pass": true
+    },
+    {
+      "name": "Theme persists through reload",
+      "pass": true
+    },
+    {
+      "name": "dark text contrast ≥ 4.5",
+      "pass": true,
+      "details": {
+        "--bg:--text": 16.057553418081003,
+        "--bg:--text-dim": 8.731895723467968,
+        "--bg:--text-muted": 5.743244708210978,
+        "--bg:--accent": 8.593035248896113,
+        "--bg-alt:--text": 14.852584967460349,
+        "--bg-alt:--text-dim": 8.076649025110992,
+        "--bg-alt:--text-muted": 5.312268176643237,
+        "--bg-alt:--accent": 7.948208723932981,
+        "--panel:--text": 14.25843807150685,
+        "--panel:--text-dim": 7.753559410845949,
+        "--panel:--text-muted": 5.099761892077957,
+        "--panel:--accent": 7.6302570978651065
+      }
+    },
+    {
+      "name": "dark no overflow at 320",
+      "pass": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "client": 320,
+        "body": 320
+      }
+    },
+    {
+      "name": "dark no overflow at 390",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "client": 390,
+        "body": 390
+      }
+    },
+    {
+      "name": "dark no overflow at 680",
+      "pass": true,
+      "details": {
+        "width": 680,
+        "scroll": 680,
+        "client": 680,
+        "body": 680
+      }
+    },
+    {
+      "name": "dark no overflow at 768",
+      "pass": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "client": 768,
+        "body": 768
+      }
+    },
+    {
+      "name": "dark no overflow at 900",
+      "pass": true,
+      "details": {
+        "width": 900,
+        "scroll": 900,
+        "client": 900,
+        "body": 900
+      }
+    },
+    {
+      "name": "dark no overflow at 901",
+      "pass": true,
+      "details": {
+        "width": 901,
+        "scroll": 901,
+        "client": 901,
+        "body": 901
+      }
+    },
+    {
+      "name": "dark no overflow at 1024",
+      "pass": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "client": 1024,
+        "body": 1024
+      }
+    },
+    {
+      "name": "dark no overflow at 1440",
+      "pass": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "client": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "name": "light text contrast ≥ 4.5",
+      "pass": true,
+      "details": {
+        "--bg:--text": 14.095440866024598,
+        "--bg:--text-dim": 5.232935876240086,
+        "--bg:--text-muted": 4.987692819154702,
+        "--bg:--accent": 4.962898517599493,
+        "--bg-alt:--text": 13.016913449519546,
+        "--bg-alt:--text-dim": 4.83253230852042,
+        "--bg-alt:--text-muted": 4.606054280729839,
+        "--bg-alt:--accent": 4.583157141119018,
+        "--panel:--text": 14.835292946501411,
+        "--panel:--text-dim": 5.5076061424514835,
+        "--panel:--text-muted": 5.249490583701788,
+        "--panel:--accent": 5.223394860235484
+      }
+    },
+    {
+      "name": "light no overflow at 320",
+      "pass": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "client": 320,
+        "body": 320
+      }
+    },
+    {
+      "name": "light no overflow at 390",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "client": 390,
+        "body": 390
+      }
+    },
+    {
+      "name": "light no overflow at 680",
+      "pass": true,
+      "details": {
+        "width": 680,
+        "scroll": 680,
+        "client": 680,
+        "body": 680
+      }
+    },
+    {
+      "name": "light no overflow at 768",
+      "pass": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "client": 768,
+        "body": 768
+      }
+    },
+    {
+      "name": "light no overflow at 900",
+      "pass": true,
+      "details": {
+        "width": 900,
+        "scroll": 900,
+        "client": 900,
+        "body": 900
+      }
+    },
+    {
+      "name": "light no overflow at 901",
+      "pass": true,
+      "details": {
+        "width": 901,
+        "scroll": 901,
+        "client": 901,
+        "body": 901
+      }
+    },
+    {
+      "name": "light no overflow at 1024",
+      "pass": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "client": 1024,
+        "body": 1024
+      }
+    },
+    {
+      "name": "light no overflow at 1440",
+      "pass": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "client": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "name": "Navigation reaches section",
+      "pass": true
+    },
+    {
+      "name": "Accordion opens exclusively",
+      "pass": true
+    },
+    {
+      "name": "Accordion keyboard activation",
+      "pass": true
+    },
+    {
+      "name": "Mobile menu opens",
+      "pass": true
+    },
+    {
+      "name": "Mobile menu closes on selection",
+      "pass": true
+    },
+    {
+      "name": "Escape closes menu and restores focus",
+      "pass": true
+    },
+    {
+      "name": "No page errors",
+      "pass": true
+    }
+  ],
+  "pageErrors": 0,
+  "passed": 32,
+  "html_sha256": "9b2c3fa3d61f4320e30e33ffab19b141717bbfd1bd53713b6b37ffab0f7310fc",
+  "visual_review": "All dark/light full-page and desktop/mobile slices visually reviewed.",
+  "art_class": {
+    "fail": 0,
+    "warn": 0
+  },
+  "published": false
+}
