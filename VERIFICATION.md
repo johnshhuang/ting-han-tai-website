@@ -52,3 +52,10 @@
 - R2：47 項瀏覽器檢查通過，audit 0 FAIL／0 WARN；本次淺色版完整頁面與切片 12 張、首頁桌機／手機 2 張均已檢視。
 - R3：部署 commit `bf143f4a8ac7cbda56351dc03f532edfe9027aaf`，[Pages run 40348763841](https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40348763841) success；線上 HTML 與深淺照片皆 HTTP 200 且逐位元相同。
 - 原始 PNG 未修圖；未測實體手機或其他瀏覽器引擎，無阻塞項。
+
+## 還原原版 light mode 照片（2026-10-26）
+
+- R1：依「原版的照片比較好，幫我改回去」，還原 `S__70639723.jpg`；來源與網站 JPG hash 相同，黑底照不變。
+- R2：首頁與每個公開圖片檔逐位元等同 `c224794` 已驗證版本，沿用該版 47 項瀏覽器檢查與截圖，本次未重跑。其他文字及連結未改。
+- R3：部署 commit `3e62f5fa5e8c360a7b9ee742fa302ebad618579f`，[Pages run 40349945719](https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40349945719) success；線上 HTML、原版淺色 JPG 及深色 PNG 均 HTTP 200、hash 與本機相同。
+- 無阻塞；本次沒有啟動任何瀏覽器控制程序。

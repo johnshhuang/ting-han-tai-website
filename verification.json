@@ -315,17 +315,18 @@
   ],
   "pageErrors": 0,
   "passed": 47,
-  "html_sha256": "d5f3de6eba9363c3cbc1ebcccebf225ae600f07ec6ac8a0b17a8d3c66e59cb83",
+  "html_sha256": "77acc30b9e064482f9d12679b8655f6f6424a6cc47b805d066452fb34c874ff3",
   "portrait_matches_supplied_original": true,
   "art_class": {
     "fail": 0,
     "warn": 0
   },
   "visual_review": {
-    "light_fullpage_and_slices_reviewed": 12,
-    "light_hero_compositions_reviewed": 2,
-    "result": "pass",
-    "dark": "asset and styling unchanged; theme switching verified in 47 checks"
+    "source": "work/portrait-photo-replacement/qa and /tmp/artclass/portrait-{dark,light}",
+    "reused_from_identical_version": true,
+    "fullpage_and_slices_reviewed": 24,
+    "hero_compositions_reviewed": 4,
+    "result": "pass"
   },
   "current_revision_uploaded": true,
   "current_revision_deployed": true,
@@ -672,26 +673,26 @@
     "clinics"
   ],
   "deployment": {
-    "verified_at": "2026-10-26T15:24:38.266979+00:00",
+    "verified_at": "2026-10-26T15:31:21.845810+00:00",
     "url": "https://johnshhuang.github.io/ting-han-tai-website/",
-    "deployed_commit": "bf143f4a8ac7cbda56351dc03f532edfe9027aaf",
-    "run_id": 40348763841,
+    "deployed_commit": "3e62f5fa5e8c360a7b9ee742fa302ebad618579f",
+    "run_id": 40349945719,
     "conclusion": "success",
     "files": [
       {
         "path": "index.html",
         "url": "https://johnshhuang.github.io/ting-han-tai-website/",
         "status": 200,
-        "bytes": 46559,
-        "sha256": "d5f3de6eba9363c3cbc1ebcccebf225ae600f07ec6ac8a0b17a8d3c66e59cb83",
+        "bytes": 46558,
+        "sha256": "77acc30b9e064482f9d12679b8655f6f6424a6cc47b805d066452fb34c874ff3",
         "matches_local": true
       },
       {
-        "path": "assets/ting-han-tai-portrait-light.png",
-        "url": "https://johnshhuang.github.io/ting-han-tai-website/assets/ting-han-tai-portrait-light.png",
+        "path": "assets/ting-han-tai-portrait-light.jpg",
+        "url": "https://johnshhuang.github.io/ting-han-tai-website/assets/ting-han-tai-portrait-light.jpg",
         "status": 200,
-        "bytes": 1274902,
-        "sha256": "9b78d5695bb85b9a5b99c2b2564c976469488c9a5f4fc582a60bd8429f576658",
+        "bytes": 63844,
+        "sha256": "68c3c519de4f16b976f063d36d6f208ba4670e8fd2f8b69c3e836faaa0b77b8b",
         "matches_local": true
       },
       {
@@ -806,9 +807,9 @@
   "portraits": [
     {
       "theme": "light",
-      "source_filename": "親切專業的骨科醫師肖像.png",
-      "asset": "assets/ting-han-tai-portrait-light.png",
-      "sha256": "9b78d5695bb85b9a5b99c2b2564c976469488c9a5f4fc582a60bd8429f576658",
+      "source_filename": "S__70639723.jpg",
+      "asset": "assets/ting-han-tai-portrait-light.jpg",
+      "sha256": "68c3c519de4f16b976f063d36d6f208ba4670e8fd2f8b69c3e836faaa0b77b8b",
       "matches_original": true
     },
     {
@@ -820,18 +821,14 @@
     }
   ],
   "portrait_revision": {
-    "source": {
-      "light_source": "親切專業的骨科醫師肖像.png",
-      "light_asset": "assets/ting-han-tai-portrait-light.png",
-      "light_sha256": "9b78d5695bb85b9a5b99c2b2564c976469488c9a5f4fc582a60bd8429f576658",
-      "source_matches": true,
-      "dark_sha256": "6131ed3fff70246688fc26e01004b8ec7d8e37469a2e42876b48cf1be6dfe2ff",
-      "other_content_unchanged": true
-    },
-    "browser_checks_passed": 47,
-    "light_fullpage_screenshots_reviewed": 12,
-    "light_hero_screenshots_reviewed": 2,
-    "dark_asset_unchanged": true
+    "source": "S__70639723.jpg",
+    "source_sha256": "68c3c519de4f16b976f063d36d6f208ba4670e8fd2f8b69c3e836faaa0b77b8b",
+    "html_sha256": "77acc30b9e064482f9d12679b8655f6f6424a6cc47b805d066452fb34c874ff3",
+    "matches_previously_verified_release": "c224794095d32e5195ade388ae01e186fb08e5ed",
+    "all_public_assets_match": true,
+    "prior_browser_checks": 47,
+    "qa_reused_not_rerun": true,
+    "dark_unchanged": true
   },
   "deployment_history": [
     {
@@ -887,6 +884,40 @@
       "all_match": true,
       "run_url": "https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40346743342",
       "conclusion": "success"
+    },
+    {
+      "verified_at": "2026-10-26T15:24:38.266979+00:00",
+      "url": "https://johnshhuang.github.io/ting-han-tai-website/",
+      "deployed_commit": "bf143f4a8ac7cbda56351dc03f532edfe9027aaf",
+      "run_id": 40348763841,
+      "conclusion": "success",
+      "files": [
+        {
+          "path": "index.html",
+          "url": "https://johnshhuang.github.io/ting-han-tai-website/",
+          "status": 200,
+          "bytes": 46559,
+          "sha256": "d5f3de6eba9363c3cbc1ebcccebf225ae600f07ec6ac8a0b17a8d3c66e59cb83",
+          "matches_local": true
+        },
+        {
+          "path": "assets/ting-han-tai-portrait-light.png",
+          "url": "https://johnshhuang.github.io/ting-han-tai-website/assets/ting-han-tai-portrait-light.png",
+          "status": 200,
+          "bytes": 1274902,
+          "sha256": "9b78d5695bb85b9a5b99c2b2564c976469488c9a5f4fc582a60bd8429f576658",
+          "matches_local": true
+        },
+        {
+          "path": "assets/ting-han-tai-portrait-dark.png",
+          "url": "https://johnshhuang.github.io/ting-han-tai-website/assets/ting-han-tai-portrait-dark.png",
+          "status": 200,
+          "bytes": 1661780,
+          "sha256": "6131ed3fff70246688fc26e01004b8ec7d8e37469a2e42876b48cf1be6dfe2ff",
+          "matches_local": true
+        }
+      ],
+      "all_match": true
     }
   ],
   "portrait_revision_history": [
@@ -918,6 +949,25 @@
         "hero_desktop_mobile": 4
       },
       "visual_result": "Correct theme portraits; complete head and crossed arms; stable portrait frame; readable dark/light desktop and mobile."
+    },
+    {
+      "source": {
+        "light_source": "親切專業的骨科醫師肖像.png",
+        "light_asset": "assets/ting-han-tai-portrait-light.png",
+        "light_sha256": "9b78d5695bb85b9a5b99c2b2564c976469488c9a5f4fc582a60bd8429f576658",
+        "source_matches": true,
+        "dark_sha256": "6131ed3fff70246688fc26e01004b8ec7d8e37469a2e42876b48cf1be6dfe2ff",
+        "other_content_unchanged": true
+      },
+      "browser_checks_passed": 47,
+      "light_fullpage_screenshots_reviewed": 12,
+      "light_hero_screenshots_reviewed": 2,
+      "dark_asset_unchanged": true
     }
-  ]
+  ],
+  "qa_provenance": {
+    "reused_from_commit": "c224794095d32e5195ade388ae01e186fb08e5ed",
+    "all_public_files_identical": true,
+    "fresh_browser_run": false
+  }
 }

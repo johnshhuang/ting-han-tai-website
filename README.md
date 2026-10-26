@@ -4,11 +4,11 @@
 
 **目前為設計提案，GitHub Pages 已有可瀏覽版本，內容仍待醫師核稿。**
 
-2026-10-26 最新版已發布 GitHub Pages：淺色模式已恢復原版「S__70639723.jpg」，深色模式保留黑底照片，切換時同步更新。47 項瀏覽器檢查通過；本次線上首頁與兩張照片皆 HTTP 200，SHA-256 與本機相同。六則新聞稿、八篇學術發表與院所掛號連結保留。
+2026-10-26 最新版已發布 GitHub Pages：淺色模式已恢復原版「S__70639723.jpg」，深色模式保留黑底照片，切換時同步更新。已恢復先前通過 47 項檢查的同一版公開檔案；本次線上首頁與兩張照片皆 HTTP 200，SHA-256 與本機相同。六則新聞稿、八篇學術發表與院所掛號連結保留。
 
 公開網址：https://johnshhuang.github.io/ting-han-tai-website/
 
-本次網站部署 commit：`bf143f4a8ac7cbda56351dc03f532edfe9027aaf`；[GitHub Actions 成功紀錄](https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40348763841)。
+本次網站部署 commit：`3e62f5fa5e8c360a7b9ee742fa302ebad618579f`；[GitHub Actions 成功紀錄](https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40349945719)。
 
 ## 預覽
 
@@ -18,7 +18,7 @@
 
 已附 `.github/workflows/pages.yml`，只在手動啟動時部署，不會因一般 push 自動發布。發布前先在 repository 的 Settings → Pages 選擇 GitHub Actions，確認網站內容與公開範圍，再執行 `Deploy website to GitHub Pages`。
 
-Workflow 僅發布 `index.html`、`assets/` 與 `.nojekyll`，不發布 README 或內部來源筆記。設定依 [GitHub 官方文件](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。本次 GitHub Actions run `40348763841` 已成功；最新網站與配圖已完成線上 HTTP／雜湊驗證，詳見 VERIFICATION.md 與 verification.json。
+Workflow 僅發布 `index.html`、`assets/` 與 `.nojekyll`，不發布 README 或內部來源筆記。設定依 [GitHub 官方文件](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。本次 GitHub Actions run `40349945719` 已成功；最新網站與配圖已完成線上 HTTP／雜湊驗證，詳見 VERIFICATION.md 與 verification.json。
 
 作為正式官網採用前仍需醫師本人核稿、最新執業與診次核對。現有網站保留頁尾設計提案標記及 `noindex` metadata；`noindex` 不是存取控制，repository 與 Pages 現在皆為公開。
 
