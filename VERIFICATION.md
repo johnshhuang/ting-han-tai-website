@@ -45,3 +45,10 @@
 - R2：照片使用既有主題狀態切換，固定外框並靠上構圖。47 項瀏覽器檢查通過，包含主題對應照片、重載保存、8 種寬度無溢出及原有導覽；audit 0 FAIL／0 WARN。雙主題完整頁面與切片 24 張、另 4 張首頁桌機手機構圖已檢視。
 - R3：部署 commit `c224794095d32e5195ade388ae01e186fb08e5ed`，[Pages run 40346743342](https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40346743342) 成功；線上首頁與兩張新照片 HTTP 200 且 SHA-256 逐一相同。
 - 姓名、文案、六則新聞、八篇論文及所有連結未改；合杏 Hixcare 入口保留。未測實體手機或其他瀏覽器引擎；無阻塞項。
+
+## Light mode 最後照片更新（2026-10-26）
+
+- R1：改用 `親切專業的骨科醫師肖像.png`，網站副本 `assets/ting-han-tai-portrait-light.png` 與來源雜湊相同；深色照片、文字與連結保持不變。
+- R2：47 項瀏覽器檢查通過，audit 0 FAIL／0 WARN；本次淺色版完整頁面與切片 12 張、首頁桌機／手機 2 張均已檢視。
+- R3：部署 commit `bf143f4a8ac7cbda56351dc03f532edfe9027aaf`，[Pages run 40348763841](https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40348763841) success；線上 HTML 與深淺照片皆 HTTP 200 且逐位元相同。
+- 原始 PNG 未修圖；未測實體手機或其他瀏覽器引擎，無阻塞項。
