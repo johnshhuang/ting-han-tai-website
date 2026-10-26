@@ -4,7 +4,7 @@
 
 **目前為設計提案，GitHub Pages 已有可瀏覽版本，內容仍待醫師核稿。**
 
-2026-10-26 最新版已發布 GitHub Pages：淺色模式使用最後指定的米白底「親切專業的骨科醫師肖像.png」，深色模式保留黑底照片，切換時同步更新。47 項瀏覽器檢查通過；本次線上首頁與兩張照片皆 HTTP 200，SHA-256 與本機相同。六則新聞稿、八篇學術發表與院所掛號連結保留。
+2026-10-26 最新版已發布 GitHub Pages：淺色模式已恢復原版「S__70639723.jpg」，深色模式保留黑底照片，切換時同步更新。47 項瀏覽器檢查通過；本次線上首頁與兩張照片皆 HTTP 200，SHA-256 與本機相同。六則新聞稿、八篇學術發表與院所掛號連結保留。
 
 公開網址：https://johnshhuang.github.io/ting-han-tai-website/
 
@@ -25,7 +25,7 @@ Workflow 僅發布 `index.html`、`assets/` 與 `.nojekyll`，不發布 README �
 ## 編輯
 
 - `index.html`：所有內容、設計 token、響應式 CSS 與少量互動 JS。
-- `assets/ting-han-tai-portrait-light.png`、`assets/ting-han-tai-portrait-dark.png`：Andrew 提供的淺底／黑底醫師照片，隨主題切換；兩張原圖皆未修改。
+- `assets/ting-han-tai-portrait-light.jpg`、`assets/ting-han-tai-portrait-dark.png`：Andrew 提供的淺底／黑底醫師照片，隨主題切換；兩張原圖皆未修改。
 - `assets/hand-sculpture.png`：第一版原創雕塑意象，保留歷史素材，現行首頁不載入。
 - `assets/favicon.svg`：原創 T. 字母識別。
 - `assets/news-*.png`：六張內建 imagegen 製作的原創新聞配圖，來源與最終 prompt 見 CONTENT-SOURCES.md。
