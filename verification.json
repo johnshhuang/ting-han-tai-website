@@ -1,7 +1,35 @@
 {
   "checks": [
     {
+      "name": "Physician name is primary heading",
+      "pass": true
+    },
+    {
+      "name": "Supplied portrait is used",
+      "pass": true
+    },
+    {
+      "name": "Name is visually larger than slogan",
+      "pass": true
+    },
+    {
       "name": "Default theme is dark",
+      "pass": true
+    },
+    {
+      "name": "All six cards have original decoded image assets",
+      "pass": true
+    },
+    {
+      "name": "News title and navigation are unified",
+      "pass": true
+    },
+    {
+      "name": "Sixth story uses exact supplied headline",
+      "pass": true
+    },
+    {
+      "name": "Editorial illustrations are identified",
       "pass": true
     },
     {
@@ -18,6 +46,26 @@
     },
     {
       "name": "External tab links use noopener",
+      "pass": true
+    },
+    {
+      "name": "Eight unique verified paper links",
+      "pass": true
+    },
+    {
+      "name": "Five reviews and three NEJM Images",
+      "pass": true
+    },
+    {
+      "name": "Only two papers labeled meta-analysis",
+      "pass": true
+    },
+    {
+      "name": "Six canonical media links without duplicates",
+      "pass": true
+    },
+    {
+      "name": "Both clinic introductions and booking routes",
       "pass": true
     },
     {
@@ -237,6 +285,10 @@
       "pass": true
     },
     {
+      "name": "Mobile news images fill card width without nested padding",
+      "pass": true
+    },
+    {
       "name": "Mobile menu opens",
       "pass": true
     },
@@ -254,12 +306,447 @@
     }
   ],
   "pageErrors": 0,
-  "passed": 32,
-  "html_sha256": "9b2c3fa3d61f4320e30e33ffab19b141717bbfd1bd53713b6b37ffab0f7310fc",
-  "visual_review": "All dark/light full-page and desktop/mobile slices visually reviewed.",
+  "passed": 45,
+  "html_sha256": "38c1a60c7c37806bc3b9c5bf9995ae341a250182fcb46165cc7d193ed02ea73a",
+  "portrait_sha256": "a712fd2d4ea74b53d7438be4693b7759d7f2872305a950c71a45aa0310843c0d",
+  "portrait_matches_supplied_original": true,
   "art_class": {
     "fail": 0,
     "warn": 0
   },
-  "published": false
+  "visual_review": {
+    "all_screenshots_reviewed": 24,
+    "themes": [
+      "dark",
+      "light"
+    ],
+    "desktop_height": 6851,
+    "mobile_height": 10430,
+    "original_assets_reviewed": 6,
+    "mobile_nested_padding_fixed": true
+  },
+  "current_revision_uploaded": true,
+  "current_revision_deployed": true,
+  "previous_deployment_exists": true,
+  "media": [
+    {
+      "url": "https://www.healthnews.com.tw/article/69513",
+      "date": "2026.09.02",
+      "topic": "手部照護",
+      "title": "傷口很小，<br>手指卻彎不動？",
+      "description": "一則關於手部肌腱損傷的報導，提醒我們關注表面傷口之外的活動與功能。",
+      "source": "健康醫療網",
+      "kind": "閱讀報導",
+      "verified": true,
+      "existing": true,
+      "icon": "hand",
+      "image": "assets/news-hand-care.png",
+      "alt": "手掌陶瓷雕塑與亞麻布，象徵手部照護的原創示意圖"
+    },
+    {
+      "url": "https://www.chinatimes.com/realtimenews/20260814003340-260418",
+      "date": "2026.08.14",
+      "topic": "PRP 衛教",
+      "title": "一次認識 PRP：<br>從製備到治療評估",
+      "description": "戴醫師在報導中說明自體血小板血漿的製備概念，及接受治療前的評估重點。",
+      "source": "中時新聞網",
+      "kind": "閱讀報導",
+      "verified": true,
+      "existing": false,
+      "icon": "blood",
+      "image": "assets/news-prp.png",
+      "alt": "透明檢體瓶與金色液體，呼應 PRP 主題的原創示意圖"
+    },
+    {
+      "url": "https://money.udn.com/money/story/11800/9644062",
+      "date": "2026.07.22",
+      "topic": "手指外傷",
+      "title": "手指夾傷後，<br>為什麼伸不直？",
+      "description": "從手指外傷案例，認識伸肌腱損傷與鈕扣指畸形相關的評估議題。",
+      "source": "經濟日報",
+      "kind": "閱讀報導",
+      "verified": true,
+      "existing": true,
+      "icon": "hand",
+      "image": "assets/news-finger-injury.png",
+      "alt": "汽車門把與柔和光影，呼應手指夾傷主題的原創示意圖"
+    },
+    {
+      "url": "https://www.ctee.com.tw/news/20260603701794-430503",
+      "date": "2026.06.03",
+      "topic": "拇指肌腱",
+      "title": "大拇指切傷後，<br>為何無法比讚？",
+      "description": "從拇指外傷報導，認識伸拇指肌腱損傷與手部活動功能的關係。",
+      "source": "工商時報",
+      "kind": "閱讀報導",
+      "verified": true,
+      "existing": false,
+      "icon": "hand",
+      "image": "assets/news-thumb.png",
+      "alt": "拇指向上的陶瓷手部雕塑，象徵手部功能的原創示意圖"
+    },
+    {
+      "url": "https://ntpu-econalumni.com/post/764/",
+      "date": "2026.03.24",
+      "topic": "健康講座 · 活動回顧",
+      "title": "懂吃、懂動，<br>累積日常的健康",
+      "description": "北大經濟系系友會健康講座回顧，分享飲食、肌力與骨骼健康的日常實踐。",
+      "source": "北大經濟系系友會",
+      "kind": "閱讀回顧",
+      "verified": true,
+      "existing": false,
+      "icon": "talk",
+      "image": "assets/news-healthy-living.png",
+      "alt": "啞鈴、水果、毛巾與書本，象徵健康生活的原創示意圖"
+    },
+    {
+      "url": "https://act.chinatimes.com/market/content.aspx?AdID=21738",
+      "date": null,
+      "topic": "外傷照護",
+      "title": "車禍瘀青腫脹遲未消退？醫師提醒當心閉合性去套傷",
+      "description": "從車禍後持續的瘀青與腫脹，認識閉合性去套傷的評估議題。",
+      "source": "中時新聞網",
+      "kind": "閱讀報導",
+      "verified": true,
+      "existing": false,
+      "icon": "article",
+      "title_source": "User supplied verbatim; official clinic news/96 links the same AdID.",
+      "image": "assets/news-trauma.png",
+      "alt": "安全帽與車鑰匙，呼應交通事故後照護的原創示意圖"
+    }
+  ],
+  "deduplication": {
+    "act_chinatimes": "User supplied full headline and confirmed attribution; https://hcbone.com.tw/index.php/web/news/96 links the exact AdID. Publisher body and publication date remain unavailable; clinic announcement date is not substituted.",
+    "ctee": "Google share redirect resolves exact article and indexed title. Publisher robots prevents body extraction; topic corroborated in matching syndicated coverage, not copying photos or claims.",
+    "ntpu": "Publication date is March 24; event March 19. Date on card is publication date.",
+    "dedup": [
+      "share.google/Y1TF8If9RrZD3bInu + first long Google viewer => CTEE 20260603701794-430503",
+      "share.google/shGPlgj3oZYGgtqnF => existing UDN 9644062",
+      "chinatimes chdtv tracking variants => one article",
+      "incomplete Google viewer cannot identify standalone extra story"
+    ]
+  },
+  "publications": [
+    {
+      "pmid": "39299603",
+      "title": "Lag screw versus locking plate fixation for traumatic displaced medial malleolar fractures: a systematic review and meta-analysis.",
+      "journal": "Orthopaedics & traumatology, surgery & research : OTSR",
+      "year": "2025",
+      "doi": "10.1016/j.otsr.2024.104000",
+      "authors": [
+        "Ting-Han Tai",
+        "Bing-Kuan Chen",
+        "El-Wui Loh",
+        "Wei-Cheng Chen",
+        "Yu-Min Huang",
+        "Ka-Wai Tam"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Systematic Review",
+        "Meta-Analysis",
+        "Comparative Study"
+      ]
+    },
+    {
+      "pmid": "39274321",
+      "title": "Locking Plate Fixation with Calcium Phosphate Bone Cement Augmentation for Elderly Proximal Humerus Fractures-A Single-Center Experience and Literature Review.",
+      "journal": "Journal of clinical medicine",
+      "year": "2024",
+      "doi": "10.3390/jcm13175109",
+      "authors": [
+        "Chun-Chi Peng",
+        "Ting-Han Tai",
+        "Chih-Yu Chen"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ]
+    },
+    {
+      "pmid": "38999516",
+      "title": "Intramedullary Screw versus Locking Plate Fixation for Traumatic Displaced Proximal Fifth Metatarsal Fractures: A Systematic Review.",
+      "journal": "Journal of clinical medicine",
+      "year": "2024",
+      "doi": "10.3390/jcm13133952",
+      "authors": [
+        "Yu-Chieh Lo",
+        "Ting-Han Tai",
+        "Yu-Min Huang",
+        "Chih-Yu Chen"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ]
+    },
+    {
+      "pmid": "38337449",
+      "title": "Intramedullary Nail vs. Plate Fixation for Pathological Humeral Shaft Fracture: An Updated Narrative Review and Meta-Analysis of Surgery-Related Factors.",
+      "journal": "Journal of clinical medicine",
+      "year": "2024",
+      "doi": "10.3390/jcm13030755",
+      "authors": [
+        "Bing-Kuan Chen",
+        "Ting-Han Tai",
+        "Shu-Hsuan Lin",
+        "Kuan-Hao Chen",
+        "Yu-Min Huang",
+        "Chih-Yu Chen"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ]
+    },
+    {
+      "pmid": "37959267",
+      "title": "Current Management and Volar Locking Plate Fixation with Bone Cement Augmentation for Elderly Distal Radius Fractures-An Updated Narrative Review.",
+      "journal": "Journal of clinical medicine",
+      "year": "2023",
+      "doi": "10.3390/jcm12216801",
+      "authors": [
+        "Ting-Han Tai",
+        "Po-Jui Chu",
+        "Kuan-Yu Lu",
+        "Jeffrey J Wu",
+        "Chin-Chean Wong"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ]
+    },
+    {
+      "pmid": "37099343",
+      "title": "Isolated Ulnar Shaft Fracture.",
+      "journal": "The New England journal of medicine",
+      "year": "2023",
+      "doi": "10.1056/NEJMicm2211242",
+      "authors": [
+        "Ting-Han Tai",
+        "Chih-Yu Chen"
+      ],
+      "publication_types": [
+        "Case Reports",
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "35675179",
+      "title": "Legg-Calvé-Perthes Disease.",
+      "journal": "The New England journal of medicine",
+      "year": "2022",
+      "doi": "10.1056/NEJMicm2118649",
+      "authors": [
+        "Ting-Han Tai",
+        "Chin-Chean Wong"
+      ],
+      "publication_types": [
+        "Case Reports",
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "33406331",
+      "title": "Open-Book Pelvic Fracture.",
+      "journal": "The New England journal of medicine",
+      "year": "2021",
+      "doi": "10.1056/NEJMicm2013030",
+      "authors": [
+        "Ting-Han Tai",
+        "Chih-Yu Chen"
+      ],
+      "publication_types": [
+        "Case Reports",
+        "Journal Article"
+      ]
+    }
+  ],
+  "clinic_link_readback": [
+    {
+      "url": "https://web.cxms.com.tw/hs/post.php",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://web.cxms.com.tw/hs/hosp.php",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://thcloudsrv.these.com.tw/opdregweb/Menu.aspx?hospitalID=1531051163",
+      "status": 200,
+      "title": "\n",
+      "text": "請使用手機掃瞄下方QRCODE，即可進入手機版網路掛號系統 關閉視窗"
+    }
+  ],
+  "publication_classification": {
+    "reviews": 5,
+    "meta_analysis_within_reviews": 2,
+    "NEJM_images": 3,
+    "note": "Five meta-analyses not confirmed; retaining original types under latest use-available instruction."
+  },
+  "news_assets": [
+    {
+      "name": "news-hand-care",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "destination": "assets/news-hand-care.png",
+      "sha256": "9060b1b4ffb420c2bb5eaa8955d939824822ed142248167ab8938892c0d43c67",
+      "bytes": 2159289,
+      "mode": "built-in image_gen",
+      "visual_review": "passed: subject recognizable, consistent warm palette, no case imagery"
+    },
+    {
+      "name": "news-prp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "destination": "assets/news-prp.png",
+      "sha256": "3dae205efc0da3c5705d096263ccd72cd3782a1136e1cde0d010794cbe4aa97e",
+      "bytes": 2208165,
+      "mode": "built-in image_gen",
+      "visual_review": "passed: subject recognizable, consistent warm palette, no case imagery"
+    },
+    {
+      "name": "news-finger-injury",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "destination": "assets/news-finger-injury.png",
+      "sha256": "3c00d69e165892f84fa846920ecc8f0eabe2738ee0da2c862459d36eb641ab94",
+      "bytes": 2283197,
+      "mode": "built-in image_gen",
+      "visual_review": "passed: subject recognizable, consistent warm palette, no case imagery"
+    },
+    {
+      "name": "news-thumb",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "destination": "assets/news-thumb.png",
+      "sha256": "cf8789817ad39157ecc0c3443cc75ba29ece86f62fbcc23f062b723b78a07b8e",
+      "bytes": 1889499,
+      "mode": "built-in image_gen",
+      "visual_review": "passed: subject recognizable, consistent warm palette, no case imagery"
+    },
+    {
+      "name": "news-healthy-living",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "destination": "assets/news-healthy-living.png",
+      "sha256": "88a183f37402083b76d2559629702d1362331f5c89d2328a700df68b18011f31",
+      "bytes": 2211216,
+      "mode": "built-in image_gen",
+      "visual_review": "passed: subject recognizable, consistent warm palette, no case imagery"
+    },
+    {
+      "name": "news-trauma",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "destination": "assets/news-trauma.png",
+      "sha256": "90b6106ac345cf39d94daa10e96191974dd2d63ba99330011eb8d3ff5ea38a93",
+      "bytes": 2345502,
+      "mode": "built-in image_gen",
+      "visual_review": "passed: subject recognizable, consistent warm palette, no case imagery"
+    }
+  ],
+  "preserved_sections": [
+    "home",
+    "about",
+    "expertise",
+    "research",
+    "clinics"
+  ],
+  "deployment": {
+    "url": "https://johnshhuang.github.io/ting-han-tai-website/",
+    "deployed_commit": "029b18b6cb4cef586877b56e9800103a99d117b3",
+    "run_id": 40324845589,
+    "run_url": "https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40324845589",
+    "verified_at": "2026-10-26T12:47:57.287707+00:00",
+    "files": [
+      {
+        "path": "index.html",
+        "url": "https://johnshhuang.github.io/ting-han-tai-website/",
+        "status": 200,
+        "sha256": "38c1a60c7c37806bc3b9c5bf9995ae341a250182fcb46165cc7d193ed02ea73a",
+        "matches_local": true,
+        "bytes": 46145
+      },
+      {
+        "path": "assets/news-finger-injury.png",
+        "url": "https://johnshhuang.github.io/ting-han-tai-website/assets/news-finger-injury.png",
+        "status": 200,
+        "sha256": "3c00d69e165892f84fa846920ecc8f0eabe2738ee0da2c862459d36eb641ab94",
+        "matches_local": true,
+        "bytes": 2283197
+      },
+      {
+        "path": "assets/news-hand-care.png",
+        "url": "https://johnshhuang.github.io/ting-han-tai-website/assets/news-hand-care.png",
+        "status": 200,
+        "sha256": "9060b1b4ffb420c2bb5eaa8955d939824822ed142248167ab8938892c0d43c67",
+        "matches_local": true,
+        "bytes": 2159289
+      },
+      {
+        "path": "assets/news-healthy-living.png",
+        "url": "https://johnshhuang.github.io/ting-han-tai-website/assets/news-healthy-living.png",
+        "status": 200,
+        "sha256": "88a183f37402083b76d2559629702d1362331f5c89d2328a700df68b18011f31",
+        "matches_local": true,
+        "bytes": 2211216
+      },
+      {
+        "path": "assets/news-prp.png",
+        "url": "https://johnshhuang.github.io/ting-han-tai-website/assets/news-prp.png",
+        "status": 200,
+        "sha256": "3dae205efc0da3c5705d096263ccd72cd3782a1136e1cde0d010794cbe4aa97e",
+        "matches_local": true,
+        "bytes": 2208165
+      },
+      {
+        "path": "assets/news-thumb.png",
+        "url": "https://johnshhuang.github.io/ting-han-tai-website/assets/news-thumb.png",
+        "status": 200,
+        "sha256": "cf8789817ad39157ecc0c3443cc75ba29ece86f62fbcc23f062b723b78a07b8e",
+        "matches_local": true,
+        "bytes": 1889499
+      },
+      {
+        "path": "assets/news-trauma.png",
+        "url": "https://johnshhuang.github.io/ting-han-tai-website/assets/news-trauma.png",
+        "status": 200,
+        "sha256": "90b6106ac345cf39d94daa10e96191974dd2d63ba99330011eb8d3ff5ea38a93",
+        "matches_local": true,
+        "bytes": 2345502
+      },
+      {
+        "path": "assets/ting-han-tai-portrait.png",
+        "url": "https://johnshhuang.github.io/ting-han-tai-website/assets/ting-han-tai-portrait.png",
+        "status": 200,
+        "sha256": "a712fd2d4ea74b53d7438be4693b7759d7f2872305a950c71a45aa0310843c0d",
+        "matches_local": true,
+        "bytes": 1678882
+      },
+      {
+        "path": "assets/favicon.svg",
+        "url": "https://johnshhuang.github.io/ting-han-tai-website/assets/favicon.svg",
+        "status": 200,
+        "sha256": "3f46b7b443869cd5f33e0599b413a07f9b918257a34d02b90fc088d6f24fd1de",
+        "matches_local": true,
+        "bytes": 331
+      }
+    ],
+    "all_match": true
+  }
 }
