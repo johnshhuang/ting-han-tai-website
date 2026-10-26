@@ -307,7 +307,7 @@
   ],
   "pageErrors": 0,
   "passed": 45,
-  "html_sha256": "38c1a60c7c37806bc3b9c5bf9995ae341a250182fcb46165cc7d193ed02ea73a",
+  "html_sha256": "da2dc274bd72ded9b20ed74a4953da1f3db7e540307d8991553af421d65de0ed",
   "portrait_sha256": "a712fd2d4ea74b53d7438be4693b7759d7f2872305a950c71a45aa0310843c0d",
   "portrait_matches_supplied_original": true,
   "art_class": {
@@ -566,8 +566,10 @@
   ],
   "clinic_link_readback": [
     {
-      "url": "https://web.cxms.com.tw/hs/post.php",
-      "error": "<urlopen error timed out>"
+      "status": 200,
+      "url": "https://hcbone-booking.hixcare.tw/",
+      "bytes": 3101,
+      "title": "合杏骨科診所線上預約系統"
     },
     {
       "url": "https://web.cxms.com.tw/hs/hosp.php",
@@ -669,6 +671,25 @@
   ],
   "deployment": {
     "url": "https://johnshhuang.github.io/ting-han-tai-website/",
+    "deployed_commit": "0bb8e0ee231ef0b8edabcbcf76917967c234eefc",
+    "run_id": 40341917220,
+    "run_url": "https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40341917220",
+    "verified_at": "2026-10-26T14:43:59.040307+00:00",
+    "files": [
+      {
+        "path": "index.html",
+        "url": "https://johnshhuang.github.io/ting-han-tai-website/",
+        "status": 200,
+        "sha256": "da2dc274bd72ded9b20ed74a4953da1f3db7e540307d8991553af421d65de0ed",
+        "matches_local": true,
+        "bytes": 46144
+      }
+    ],
+    "all_match": true,
+    "scope": "Booking href only; images unchanged from previous deployment."
+  },
+  "previous_deployment": {
+    "url": "https://johnshhuang.github.io/ting-han-tai-website/",
     "deployed_commit": "029b18b6cb4cef586877b56e9800103a99d117b3",
     "run_id": 40324845589,
     "run_url": "https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40324845589",
@@ -748,5 +769,21 @@
       }
     ],
     "all_match": true
-  }
+  },
+  "booking_link_revision": {
+    "requirements": {
+      "R1": "one href changed",
+      "R2": "push and Pages success",
+      "R3": "live hash and target verified"
+    },
+    "target": {
+      "status": 200,
+      "url": "https://hcbone-booking.hixcare.tw/",
+      "bytes": 3101,
+      "title": "合杏骨科診所線上預約系統"
+    },
+    "actual_booking_submitted": false,
+    "prior_visual_qa_rerun": false
+  },
+  "prior_full_qa_revision": "029b18b6cb4cef586877b56e9800103a99d117b3"
 }

@@ -6,7 +6,7 @@
 
 原始醫師資料包、Andrew 本次逐則提供的網址、[北醫學術檔案](https://hub.tmu.edu.tw/zh/persons/ting-han-tai/)，以及 PubMed 正式書目為依據。八篇作者名、年份、題名、期刊與 DOI 已由 NCBI E-utilities XML 核對；未轉載論文中的患者影像。
 
-- [合杏官網](https://www.hcbone.com.tw/)明列八德地址、服務領域、[線上預約](https://web.cxms.com.tw/hs/post.php)及[門診時間](https://web.cxms.com.tw/hs/hosp.php)。後兩個外站本次讀取逾時，僅確認其為院方提供的正式入口，未完成預約流程測試。
+- [合杏官網](https://www.hcbone.com.tw/)提供八德地址、服務領域與[門診時間](https://web.cxms.com.tw/hs/hosp.php)。2026-10-26 依使用者指定，將[線上預約](https://hcbone-booking.hixcare.tw/)改為 Hixcare 入口；已確認 HTTP 200，標題為「合杏骨科診所線上預約系統」。門診時間外站先前讀取逾時；未送出實際預約。
 - [豐榮醫院骨科](https://frhosp.rghealth.com.tw/醫療團隊/骨科/)提供骨科團隊與診療範圍；[掛號系統](https://thcloudsrv.these.com.tw/opdregweb/Menu.aspx?hospitalID=1531051163)回應 HTTP 200。只讀取入口，未填寫或送出個資。
 - 簡介為根據官網事實重寫的短文；不加未確認個人診次、療效保證或將歷史任職當作現職。
 

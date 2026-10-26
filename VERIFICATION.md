@@ -20,14 +20,21 @@
 
 ## 驗證範圍
 
-中時第六則原文與發布日仍無法自動擷取；網站只依提供標題寫簡短主題介紹。合杏外部預約站先前逾時，尚未重驗；不影響保留官方入口。新版線上站已確認首頁與八個圖片／圖示檔 HTTP 200，SHA-256 與本機相同；未另測其他瀏覽器引擎或實體手機。網站仍為待醫師核稿的設計提案。
+中時第六則原文與發布日仍無法自動擷取；網站只依提供標題寫簡短主題介紹。合杏預約入口已依使用者提供網址更新為 Hixcare，確認 HTTP 200 與正確診所標題；未送出實際掛號。新版線上站已確認首頁與八個圖片／圖示檔 HTTP 200，SHA-256 與本機相同；未另測其他瀏覽器引擎或實體手機。網站仍為待醫師核稿的設計提案。
 
 來源、圖片檔名與完整最終 prompt 見 CONTENT-SOURCES.md；機器驗證結果見 verification.json。
 
-## 公開部署驗收
+## 新聞配圖版公開部署驗收（前版）
 
 - 網址：https://johnshhuang.github.io/ting-han-tai-website/
 - 網站部署 commit：`029b18b6cb4cef586877b56e9800103a99d117b3`。
 - [GitHub Actions run 40324845589](https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40324845589)：success。
 - R1 完整網站與六張配圖已推送；R2 Pages workflow 成功；R3 公開 URL 的 9 個檔案逐位元雜湊核對通過。
 - 詳細線上讀回時間、各檔 URL、HTTP 狀態與雜湊記錄在 verification.json 的 deployment 欄位。
+
+## 合杏掛號連結修正（2026-10-26）
+
+- R1：僅將「合杏診所線上預約」按鈕的 href 改為 https://hcbone-booking.hixcare.tw/，其餘 HTML 逐位元不變。
+- R2：已推送 commit `0bb8e0ee231ef0b8edabcbcf76917967c234eefc`；[Pages run 40341917220](https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40341917220) 成功。
+- R3：線上首頁 HTTP 200，SHA-256 與本機一致（`da2dc274bd72ded9b20ed74a4953da1f3db7e540307d8991553af421d65de0ed`）；已讀回新連結，目標 HTTP 200 與診所標題正確。
+- 本次為連結修正，未重跑前版 45 項視覺／互動檢查；沒有送出預約或個資。

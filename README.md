@@ -8,7 +8,7 @@
 
 公開網址：https://johnshhuang.github.io/ting-han-tai-website/
 
-本次網站部署 commit：`029b18b6cb4cef586877b56e9800103a99d117b3`；[GitHub Actions 成功紀錄](https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40324845589)。
+本次網站部署 commit：`0bb8e0ee231ef0b8edabcbcf76917967c234eefc`；[GitHub Actions 成功紀錄](https://github.com/johnshhuang/ting-han-tai-website/actions/runs/40341917220)。
 
 ## 預覽
 
@@ -18,7 +18,7 @@
 
 已附 `.github/workflows/pages.yml`，只在手動啟動時部署，不會因一般 push 自動發布。發布前先在 repository 的 Settings → Pages 選擇 GitHub Actions，確認網站內容與公開範圍，再執行 `Deploy website to GitHub Pages`。
 
-Workflow 僅發布 `index.html`、`assets/` 與 `.nojekyll`，不發布 README 或內部來源筆記。設定依 [GitHub 官方文件](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。本次 GitHub Actions run `40324845589` 已成功；最新網站與配圖已完成線上 HTTP／雜湊驗證，詳見 VERIFICATION.md 與 verification.json。
+Workflow 僅發布 `index.html`、`assets/` 與 `.nojekyll`，不發布 README 或內部來源筆記。設定依 [GitHub 官方文件](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。本次 GitHub Actions run `40341917220` 已成功；最新網站與配圖已完成線上 HTTP／雜湊驗證，詳見 VERIFICATION.md 與 verification.json。
 
 作為正式官網採用前仍需醫師本人核稿、最新執業與診次核對。現有網站保留頁尾設計提案標記及 `noindex` metadata；`noindex` 不是存取控制，repository 與 Pages 現在皆為公開。
 
@@ -35,6 +35,6 @@ Workflow 僅發布 `index.html`、`assets/` 與 `.nojekyll`，不發布 README �
 
 ## 本次資料整理重點
 
-- 院所：補兩間院所的簡介、介紹頁與官方預約入口。合杏預約外站目前連線逾時，仍保留官網與電話作聯絡入口。
+- 院所：補兩間院所的簡介、介紹頁與官方預約入口。合杏預約入口已依使用者指定更新為 https://hcbone-booking.hixcare.tw/，確認 HTTP 200 與頁面標題；官網與電話入口保留。
 - 新聞稿：六則報導／講座卡片集中呈現，搭配六張原創主題示意圖。第六則已使用使用者補充的完整標題，並以診所公告核對同一中時網址；媒體發布日尚未確認，故不顯示日期。不同分享／追蹤網址不重複計入。
 - 論文：五篇回顧研究（其中兩篇明確含 meta-analysis）及三篇 NEJM Images。依原刊標示類型，未宣稱五篇皆為 meta-analysis。
