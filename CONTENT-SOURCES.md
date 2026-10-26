@@ -49,7 +49,7 @@ NEJM 原刊在本次自動擷取回 HTTP 403；書目由 PubMed 驗證，Images 
 
 ## 照片與設計
 
-首頁沿用 Andrew 提供並指定使用的 `a43e71c2-0da9-4932-8fa8-6a6b229fba8f.png`，網站副本 `assets/ting-han-tai-portrait.png` 與原檔 SHA-256 相同，未修圖。姓名是主要標題，標語為小字輔助文案。
+首頁依 Andrew 2026-10-26 最新指定，淺色模式用 `S__70639723.jpg`（網站副本 `assets/ting-han-tai-portrait-light.jpg`），深色模式用 `專業骨科醫師肖像.png`（`assets/ting-han-tai-portrait-dark.png`）。兩張副本皆與來源 SHA-256 相同，沒有修改照片像素；僅用 CSS 調整顯示構圖。照片隨頁面主題同步切換。姓名仍是主要標題，標語為小字輔助文案。
 
 暖色、襯線與留白參考 Andrew 個人官網；本次保留既有深淺模式、手機版與大頭照。標語是設計文案，並非醫師引言；姓名裝飾並非親筆簽名。正式內容仍待醫師本人核稿。
 

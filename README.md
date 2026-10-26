@@ -25,7 +25,7 @@ Workflow 僅發布 `index.html`、`assets/` 與 `.nojekyll`，不發布 README �
 ## 編輯
 
 - `index.html`：所有內容、設計 token、響應式 CSS 與少量互動 JS。
-- `assets/ting-han-tai-portrait.png`：Andrew 本次提供並指定使用的醫師照片，保持原圖未修改。
+- `assets/ting-han-tai-portrait-light.jpg`、`assets/ting-han-tai-portrait-dark.png`：Andrew 提供的淺底／黑底醫師照片，隨主題切換；兩張原圖皆未修改。
 - `assets/hand-sculpture.png`：第一版原創雕塑意象，保留歷史素材，現行首頁不載入。
 - `assets/favicon.svg`：原創 T. 字母識別。
 - `assets/news-*.png`：六張內建 imagegen 製作的原創新聞配圖，來源與最終 prompt 見 CONTENT-SOURCES.md。
